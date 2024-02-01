@@ -1,0 +1,30 @@
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/ClKfmuU17hbV.eot");
+  src: url("../fonts/ClKfmuU17hbV.eot#iefix") format("embedded-opentype"),
+       url("../fonts/DpvPd8ZH4zkB.woff") format("woff"),
+       url("../fonts/FQVgKQlr0Hoo.ttf") format("truetype"),
+       url("../images/xVYkUyVSTeWW.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../images/xVYkUyVSTeWW.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-skyline:before { content: "\f100"; }
+.flaticon-sketch:before { content: "\f101"; }
+.flaticon-city:before { content: "\f102"; }
